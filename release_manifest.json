@@ -1,0 +1,19 @@
+{
+  "release": "v2026-11-06",
+  "repository": "Slejpnir/cuau-deepmd-cluster-data",
+  "archive_filename": "CuAu_DeepMD_supporting_data_20261106.zip",
+  "archive_sha256": "c1cb7b1be144284dcb79741d1945eb25fd878430e31dabc7042584f86c1b333b",
+  "archive_bytes": 33605313,
+  "inventory_sha256": "a5b84dd0164724f24973f89f70ed1031bfb7ff8cc12838a4c9db7615d61056cf",
+  "files": 2036,
+  "configurations": {
+    "total": 285,
+    "training": 259,
+    "development_exposed": 20,
+    "diagnostic_exposed": 6,
+    "independent_test": 0
+  },
+  "model_promotion": false,
+  "grant_project_registration": "2025.04/0003",
+  "reuse_license": "Not assigned by the authors"
+}
