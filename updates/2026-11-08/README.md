@@ -1,16 +1,12 @@
-# Cu–Au DeepMD independent test and manuscript update
+# Cu–Au DeepMD independent test data
 
-This dated update adds six DFT reference configurations and the revised English and Ukrainian journal manuscripts. The frozen principal model from the [November 6 release](https://github.com/Slejpnir/cuau-deepmd-cluster-data/releases/tag/v2026-11-06) was evaluated without retraining, an energy-offset fit, or test-based checkpoint selection.
+This dated update adds six DFT reference configurations. The frozen principal model from the [November 6 release](https://github.com/Slejpnir/cuau-deepmd-cluster-data/releases/tag/v2026-11-06) was evaluated without retraining, an energy-offset fit, or test-based checkpoint selection.
 
 ## Files
 
-- [English manuscript](CuAu_DeepMD_MSMSE_balanced_English.docx)
-- [Ukrainian manuscript](CuAu_DeepMD_MSMSE_balanced_Ukrainian.docx)
 - [Six-configuration test archive](CuAu_DeepMD_independent_test6_20261108.zip)
 - [File checksums](SHA256SUMS.txt)
 - [Machine-readable update manifest](update_manifest.json)
-
-The manuscripts are working journal articles, not records of journal acceptance or peer review. Their scientific content matches the reviewed local revision of 8 November 2026.
 
 ## Configuration roles
 

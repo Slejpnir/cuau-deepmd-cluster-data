@@ -51,24 +51,12 @@
   "new_training_or_model_promotion": false,
   "files": [
     {
-      "path": "CuAu_DeepMD_MSMSE_balanced_English.docx",
-      "sha256": "bca3bc35e82af62c61595d9694499a91711c067fcf21f34fa2ab6e3925940843",
-      "bytes": 250290,
-      "git_blob_sha1": "c5ad44c2b5da2d61cefee71df7dd97704ac10e81"
-    },
-    {
-      "path": "CuAu_DeepMD_MSMSE_balanced_Ukrainian.docx",
-      "sha256": "9cee86022aee383fb9f37255cadc7aaf58a4ee30e3eecbac2d0c13792d515312",
-      "bytes": 255615,
-      "git_blob_sha1": "19126bb8fed320c8d03add8a8165f5f74620481e"
-    },
-    {
       "path": "CuAu_DeepMD_independent_test6_20261108.zip",
       "sha256": "cb149d454d1c19a5da8702caefee98a7f823934426461c18eb57a4068389f69e",
       "bytes": 37809,
       "git_blob_sha1": "e2df510d30426540639fe9c9163c855dd6233607"
     }
   ],
-  "manuscript_status": "working journal manuscript",
-  "reuse_license": "No author-selected reuse license assigned"
+  "reuse_license": "No author-selected reuse license assigned",
+  "repository_contents": "Supporting research data; manuscript files are not included in the current branch."
 }

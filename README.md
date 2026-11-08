@@ -4,10 +4,8 @@ Supporting data for the development and DFT-based assessment of a DeepMD potenti
 
 ## Latest update — 8 November 2026
 
-The [dated update](updates/2026-11-08/README.md) adds the revised English and Ukrainian journal manuscripts and a separate six-configuration prospective test of the frozen principal model.
+The [dated update](updates/2026-11-08/README.md) adds a separate six-configuration prospective test of the frozen principal model.
 
-- [English manuscript](updates/2026-11-08/CuAu_DeepMD_MSMSE_balanced_English.docx)
-- [Ukrainian manuscript](updates/2026-11-08/CuAu_DeepMD_MSMSE_balanced_Ukrainian.docx)
 - [Six-configuration test archive](updates/2026-11-08/CuAu_DeepMD_independent_test6_20261108.zip)
 - [Checksums](updates/2026-11-08/SHA256SUMS.txt) and [update manifest](updates/2026-11-08/update_manifest.json)
 
