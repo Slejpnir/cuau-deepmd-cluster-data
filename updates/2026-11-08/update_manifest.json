@@ -1,0 +1,74 @@
+{
+  "update_date": "2026-11-08",
+  "repository": "Slejpnir/cuau-deepmd-cluster-data",
+  "repository_directory": "updates/2026-11-08",
+  "parent_commit": "e61cc59e37f33bd3aa91f6753e795bc217e5dfff",
+  "preserved_release": "v2026-11-06",
+  "configurations": {
+    "original_total": 285,
+    "training": 259,
+    "development_exposed": 20,
+    "diagnostic_exposed": 6,
+    "separate_test": 6,
+    "combined_reference_total": 291
+  },
+  "model_original_sha256": "02e35a94635dc716866b104f13d3dd037f44a9c48c199b20ff67c8f5a1053301",
+  "test_metrics": {
+    "all_six": {
+      "atoms": 330,
+      "energy_MAE_eV_per_atom": 0.027816540674768585,
+      "energy_RMSE_eV_per_atom": 0.03164181458462147,
+      "force_MAE_eV_A": 0.08142582440840454,
+      "force_RMSE_eV_A": 0.1742460683687011,
+      "force_components": 990,
+      "force_maximum_absolute_component_error_eV_A": 2.4398760426239203,
+      "frames": 6
+    },
+    "four_collision_snapshots": {
+      "atoms": 220,
+      "energy_MAE_eV_per_atom": 0.03104998010788801,
+      "energy_RMSE_eV_per_atom": 0.03495118409963578,
+      "force_MAE_eV_A": 0.10631592098126182,
+      "force_RMSE_eV_A": 0.2112288215248855,
+      "force_components": 660,
+      "force_maximum_absolute_component_error_eV_A": 2.4398760426239203,
+      "frames": 4
+    },
+    "two_unrelaxed_geometries": {
+      "atoms": 110,
+      "energy_MAE_eV_per_atom": 0.021349661808529742,
+      "energy_RMSE_eV_per_atom": 0.023673672099812165,
+      "force_MAE_eV_A": 0.031645631262690016,
+      "force_RMSE_eV_A": 0.04300984701514656,
+      "force_components": 330,
+      "force_maximum_absolute_component_error_eV_A": 0.19164314807120753,
+      "frames": 2
+    }
+  },
+  "reference_cell_A": 24,
+  "cell_size_convergence_established": false,
+  "energy_offset_fitted": false,
+  "new_training_or_model_promotion": false,
+  "files": [
+    {
+      "path": "CuAu_DeepMD_MSMSE_balanced_English.docx",
+      "sha256": "bca3bc35e82af62c61595d9694499a91711c067fcf21f34fa2ab6e3925940843",
+      "bytes": 250290,
+      "git_blob_sha1": "c5ad44c2b5da2d61cefee71df7dd97704ac10e81"
+    },
+    {
+      "path": "CuAu_DeepMD_MSMSE_balanced_Ukrainian.docx",
+      "sha256": "9cee86022aee383fb9f37255cadc7aaf58a4ee30e3eecbac2d0c13792d515312",
+      "bytes": 255615,
+      "git_blob_sha1": "19126bb8fed320c8d03add8a8165f5f74620481e"
+    },
+    {
+      "path": "CuAu_DeepMD_independent_test6_20261108.zip",
+      "sha256": "cb149d454d1c19a5da8702caefee98a7f823934426461c18eb57a4068389f69e",
+      "bytes": 37809,
+      "git_blob_sha1": "e2df510d30426540639fe9c9163c855dd6233607"
+    }
+  ],
+  "manuscript_status": "working journal manuscript",
+  "reuse_license": "No author-selected reuse license assigned"
+}

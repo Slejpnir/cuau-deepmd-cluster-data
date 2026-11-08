@@ -2,7 +2,22 @@
 
 Supporting data for the development and DFT-based assessment of a DeepMD potential for Cu–Au nanoclusters.
 
-## Download the data
+## Latest update — 8 November 2026
+
+The [dated update](updates/2026-11-08/README.md) adds the revised English and Ukrainian journal manuscripts and a separate six-configuration prospective test of the frozen principal model.
+
+- [English manuscript](updates/2026-11-08/CuAu_DeepMD_MSMSE_balanced_English.docx)
+- [Ukrainian manuscript](updates/2026-11-08/CuAu_DeepMD_MSMSE_balanced_Ukrainian.docx)
+- [Six-configuration test archive](updates/2026-11-08/CuAu_DeepMD_independent_test6_20261108.zip)
+- [Checksums](updates/2026-11-08/SHA256SUMS.txt) and [update manifest](updates/2026-11-08/update_manifest.json)
+
+The existing 285 configurations remain unchanged: **259 training + 20 exposed development + 6 exposed diagnostic**. The **6 new held-out configurations are separate**, giving 291 reference configurations across both deposits, not 291 training configurations. No retraining, label merging, or model promotion accompanied this update.
+
+The test contains four metal-only Ar13 collision snapshots and two unrelaxed cluster seeds. Overall energy and force-component RMSEs are **31.642 meV/atom** and **0.17425 eV/Å**, respectively, against the adopted 24 Å QE references. Details, subset metrics, limitations, and a script that reproduces the errors from saved arrays are supplied with the update.
+
+The original release below, including its model graphs and checksums, is preserved.
+
+## Original 285-configuration data
 
 [Download the supporting-data archive](https://github.com/Slejpnir/cuau-deepmd-cluster-data/releases/download/v2026-11-06/CuAu_DeepMD_supporting_data_20261106.zip) from the [dated release v2026-11-06](https://github.com/Slejpnir/cuau-deepmd-cluster-data/releases/tag/v2026-11-06).
 
@@ -22,7 +37,7 @@ That verification command does not run DFT, training or model inference. Optiona
 
 ## Scope and provenance
 
-The development and diagnostic configurations are exposed sets, not blind independent tests. Publication of these research models is not a claim of independent validation or unrestricted dynamical transferability. Saved force-error statistics are included; complete predicted force arrays can be generated through the optional inference procedure.
+The original development and diagnostic configurations are exposed sets, not blind independent tests. The separate six-configuration prospective test is documented in the dated November 8 update; it does not establish unrestricted dynamical transferability. Saved force-error statistics for the original populations are included in the November 6 archive; complete predicted force arrays for those populations can be generated through the optional inference procedure. Both reference and predicted arrays for the six new tests are included in the new companion archive.
 
 The publication graphs retain all numerical model fields unchanged. Only absolute paths in training-script metadata were replaced with portable paths or opaque source identifiers. Original and publication checksums are recorded in the archive. Research source files were not modified.
 
@@ -35,3 +50,4 @@ This research was supported by a grant of the President of Ukraine provided by t
 ## Rights
 
 No author-selected reuse license is currently attached. Public accessibility does not itself grant a reuse license. Third-party software and libraries retain their respective licenses. Cite the associated research article when available and identify the dated release and archive checksum used.
+
